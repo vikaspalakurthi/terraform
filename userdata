@@ -1,0 +1,4 @@
+#!/bin/bash
+aws s3 sync s3://vikycloudcomputinginfo-56211 /var/www/html/
+touch /var/spool/cron/root
+echo '*/5 * * * * aws s3 sync s3://vikycloudcomputinginfo-56211 /var/www/html/ --region us-west-2' >> /var/spool/cron/root

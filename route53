@@ -1,0 +1,13 @@
+{
+    "Location": "https://route53.amazonaws.com/2013-04-01/delegationset/NQ02DAN1UYN6L",
+    "DelegationSet": {
+        "NameServers": [
+            "ns-1933.awsdns-49.co.uk",
+            "ns-933.awsdns-52.net",
+            "ns-232.awsdns-29.com",
+            "ns-1321.awsdns-37.org"
+        ],
+        "CallerReference": "1234",
+        "Id": "/delegationset/NQ02DAN1UYN6L"
+    }
+}
